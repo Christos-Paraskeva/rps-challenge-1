@@ -2,7 +2,7 @@ class Computer
 
   attr_reader :choice
 
-  def initialize 
+  def initialize
     @possibilities = ["Rock", "Paper", "Scissors"]
     @choice
   end
