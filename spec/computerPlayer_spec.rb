@@ -6,6 +6,6 @@ describe Computer do
   end
 
   it 'must must only be allowed to choose Rock, Paper or Scissors' do
-    subject.choose.should satisfy{|s| ['Rock', 'Paper', 'Scissors'].include?(s)}
+    subject.choose.should satisfy{|choice| ['Rock', 'Paper', 'Scissors'].include?(choice)}
   end
 end
