@@ -17,7 +17,7 @@ describe Player do
     expect{subject.choose "Fire"}.to raise_error "Must choose Rock, Paper or Scissors"
   end
 
-  it 'must capiataize the choice' do
+  it 'must capitalize the choice' do
     expect(subject.choose "rOCK").to eq "Rock"
   end
 end

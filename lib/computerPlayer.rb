@@ -10,5 +10,4 @@ class Computer
   def choose
     @choice = @possibilities[(rand(3)-1)]
   end
-
 end
