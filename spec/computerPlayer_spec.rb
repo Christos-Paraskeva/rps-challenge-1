@@ -1,4 +1,4 @@
-require 'computerPlayer.rb'
+require 'computer_player.rb'
 
 describe Computer do
   it 'must respond to choose' do
@@ -6,6 +6,6 @@ describe Computer do
   end
 
   it 'must must only be allowed to choose Rock, Paper or Scissors' do
-    subject.choose.should satisfy{|choice| ['Rock', 'Paper', 'Scissors'].include?(choice)}
+    subject.choose.should satisfy { |choice| ['Rock', 'Paper', 'Scissors'].include?(choice) }
   end
 end

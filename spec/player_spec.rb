@@ -14,7 +14,7 @@ describe Player do
   end
 
   it 'must not allow a choice other that Rock, Paper, scissors' do
-    expect{subject.choose "Fire"}.to raise_error "Must choose Rock, Paper or Scissors"
+    expect { subject.choose "Fire" }.to raise_error "Must choose Rock, Paper or Scissors"
   end
 
   it 'must capitalize the choice' do

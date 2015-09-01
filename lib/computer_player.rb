@@ -8,6 +8,6 @@ class Computer
   end
 
   def choose
-    @choice = @possibilities[(rand(3)-1)]
+    @choice = @possibilities[(rand(3) - 1)]
   end
 end

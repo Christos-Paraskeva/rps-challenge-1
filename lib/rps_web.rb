@@ -1,8 +1,6 @@
 require 'sinatra/base'
 require_relative 'game'
 
-
-
 class RPS < Sinatra::Base
   set :views, proc { File.join(root, '..', 'views') }
   run! if app_file == $0

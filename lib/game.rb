@@ -1,12 +1,12 @@
 require_relative 'player'
-require_relative 'computerplayer'
+require_relative 'computer_player'
 
 class Game
 
   def initialize
-    @winners = {"Rock" => "Scissors",
-                "Scissors" => "Paper",
-                "Paper" => "Rock"}
+    @winners = { "Rock" => "Scissors",
+                 "Scissors" => "Paper",
+                 "Paper" => "Rock" }
   end
 
   def result player1, player2 = Computer.new.choose
