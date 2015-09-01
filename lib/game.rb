@@ -14,4 +14,5 @@ class Game
     return "Player 2 wins" if @winners[player2] == player1
     return "Draw" if player1 == player2
   end
+  
 end
