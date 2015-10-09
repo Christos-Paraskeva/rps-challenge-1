@@ -1,4 +1,4 @@
-# RPS Challenge: Rōnin Badge Test
+# RPS Challenge
 
 ![travis CI builder](https://travis-ci.org/jonathansayer/rps-challenge.svg?branch=master)
 
