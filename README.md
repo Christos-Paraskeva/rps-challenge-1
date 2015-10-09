@@ -1,5 +1,7 @@
 # RPS Challenge: Rōnin Badge Test
 
+![travis CI builder](https://travis-ci.org/jonathansayer/rps-challenge.svg?branch=master)
+
 Instructions
 -------
 The Rock-Paper-Scissors challenge was issued my Makers Acadmy during week 3 of the course. The aim of the challenge is to build a Rock, Paper, Scissors game using a Sinatra Server. The User Stories are as follows:
