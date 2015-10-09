@@ -1,5 +1,5 @@
-rvm: '2.2.1'
+rvm: '2.2.2'
 script: 
   - bundle exec rspec spec
   - bundle exec cucumber
-  #travis
+
